@@ -1,0 +1,278 @@
+<!-- # Web-Dev-Bootcamp-Bootstrap-Module -->
+
+<html>
+
+<head>
+ 
+ <title>Bootstrap Exploration (UXPin Rep)</title>
+
+ <!-- Bootstrap CDN -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ <!-- Link to CSS Styles -->
+ <link rel="stylesheet" type="text/css" href="Bootstrap exploration.css">
+
+</head>
+<body>
+
+<div class="jumbotron intro">
+
+  <!-- Boostrap Navigation Bar-->
+<nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- left navbar -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="https://cdn-images-1.medium.com/max/1200/1*yhbOPmmTsybK0kYT4ClYXw.png" class="uxpinlogo">
+          </a>
+        </div> <!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav middle">
+          <!-- Products dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle products-drop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">UXPin Prototyping</a></li>
+                <li><a href="#">UXPin Systems</a></li>
+              </ul>
+            </li>
+              
+          <!-- Testimonial & Pricing Links -->
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Pricing</a></li>
+              
+          <!-- Resources Dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Webinars</a></li>
+                <li><a href="#">eBooks</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+              
+          <!-- Community Link -->
+            <li><a href="#">Community</a></li>
+          </ul>
+                  
+          <!-- right navbar -->
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#">Log in</a></li>
+          </ul>
+
+        </div> <!-- /.collapse -->
+      </div><!-- /.container -->
+    </nav> <!-- End of Navigation code -->
+
+  <!-- Banner Content -->
+    <div class="bannercontent">
+      <div class="head">
+        <h1>The Full-Stack UX Design Platform</h1>
+        <p>Agile UX in one place: design systems, prototyping, and documentation together</p>
+      </div><!-- /.head -->
+      <hr>
+      <div class="register">
+        <p>Start a free trial. No credit card required.</p>
+        <form>
+          <input class="email" type="email" placeholder="Your company email">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Start free trial</a>
+        </form>
+      </div><!-- /.register -->
+    </div><!-- /#bannercontent -->
+
+</div> <!-- /.jumbotron --> 
+
+<div class="clients">
+  <h2>Thousands of happy companies including:</h2>
+  
+  <div class="row">
+    <!-- HBO LOGO -->
+    <div class=" client-logo col-lg-1">
+      <img src="https://static1.squarespace.com/static/5345b32de4b0b32998084cbb/570bf57886db43167fa0b505/570d00a99f72664c492c6b80/1460469933736/2000px-HBO_logo.png">
+    </div>
+    <!-- PAYPAL LOGO -->
+    <div class=" client-logo col-lg-1">
+      <img src="https://www.zenbysen.com/Files/6/103000/103477/Ceyda_Sieraden/Media/pp.png">
+    </div>
+    <!-- SAPIENT -->
+    <div class=" client-logo col-lg-1">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Sapient_Corporation_logo.svg/1200px-Sapient_Corporation_logo.svg.png">
+    </div>
+    <!-- AUTODESK -->
+    <div class=" client-logo col-lg-1">
+      <img src="https://www.egnyte.com/assets/2015/images/logo-autodesk.png">
+    </div>
+    <!-- ADIDAS -->
+    <div class="adidas client-logo col-lg-1">
+      <img src="data:image/png;base64,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">
+    </div>
+    <!-- MICROSOFT -->
+    <div class=" client-logo col-lg-1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2000px-Microsoft_logo_%282012%29.svg.png">
+    </div>
+    <!-- SONY -->
+    <div class=" client-logo col-lg-1">
+      <img src="http://pngimg.com/uploads/sony_logo/sony_logo_PNG11.png">
+    </div>
+  </div> <!-- /.row -->
+
+</div> <!-- /.clients -->
+
+<hr>
+<hr>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- left half -->
+    <div class="products col-lg-6">
+      <img src="https://cdn0.iconfinder.com/data/icons/design-essentials/142/prototyping_engineering_development_create_prototype_mockup_layout-256.png">
+      <h1>UXPin Prototyping</h1>
+      <h4>Rapid  collaborative design for small teams</h4>
+      <ul>
+        <li>Design, share, and test prototypes.</li>
+        <li>Consolidate feedback from your team and stakeholders.</li>
+        <li>Easily create and review iterations.</li>
+      </ul>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    
+    <!-- right half -->
+    <div class="products col-lg-6">
+      <p><img src="https://image.pbs.org/poster_images/assets/7ffkh96awah3ldwd7u6d.png.resize.710x399.png"><p>
+      <h1>UXPin Systems<span> + Includes Prototyping</span></h1>
+      <h4>End-to-end UX solution for mid to large teams.</h4>
+      <ul>
+        <li>Scale consistency with modular Design Systems</li>
+        <li>Auto-generate specs for developers (no more redlining).</li>
+        <li>Easily create and review iterations.</li>
+      </ul>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div><!-- /.products -->
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+
+<div class="client-feedback container">
+  <div class"row">
+    <div class="col-lg-2">
+      <div class="thumbnail">
+        <img src="https://www.shareicon.net/download/2017/02/24/879530_user_512x512.png">
+      </div><!-- /.thumbnail -->
+    </div> <!-- /.col -->
+  </div> <!-- /.row -->
+
+  <div class="row col-lg-10">
+    <div class="quote">
+      <p>"This is the part where the client says something good about UXPin and tells everybody how happy s/he was to be able to use it in some place with some people for something that could actually be anything under the sun."
+      </p>
+      <p class="client-name"> - Ember Burns, <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>Firestone </p>
+    </div>
+  </div><!-- /.row -->
+</div> <!-- /.container -->
+
+<div class="jumbotron ending">
+  <!-- Ending jumbotron-->
+    <div class="bannercontent">
+      <div class="page-header">
+        <h1>Ready to try the end-to-end UX Platform?</h1>
+      </div><!-- /.page-header -->
+      <div class="register">
+        <p>Design better products. Faster.</p>
+        <form>
+          <input class="email" type="email" placeholder="Your company email">
+          <a class="btn btn-default btn-lg" href="#" role="button">Start free trial</a>
+        </form>
+      </div><!-- /.register -->
+    </div><!-- /#bannercontent -->
+
+</div> <!-- /.jumbotron --> 
+
+<div class="container-fluid">
+  <div class="row footer">
+    <!-- LEARN MORE -->
+    <div class="col-lg-2">
+      <h2><strong>LEARN MORE</strong></h2>
+        <p>New Features</p>
+        <p>Changelog</p>
+        <p>Customers</p>
+        <p>Enterprise</p>
+        <p>Pricing & Plans</p>
+    </div>
+    <!-- ABOUT -->
+    <div class="col-lg-2">
+      <h2><strong>ABOUT</strong></h2>
+        <p>Blog</p>
+        <p>Company</p>
+        <p>Jobs</p>
+    </div>
+    <!-- SUPPORT -->
+    <div class="col-lg-2">
+      <h2><strong>SUPPORT</strong></h2>
+        <p>Community</p>
+        <p>Contact Us</p>
+        <p>UX Tutorials</p>
+    </div>
+    <!-- FEATURES -->
+    <div class="col-lg-2">
+      <h2><strong>FEATURES</strong></h2>
+        <p>Mockups</p>
+        <p>Prototyping</p>
+        <p>Photoshop Import</p>
+        <p>Sketch Import</p>
+    </div>
+    <!-- FREEBIES -->
+    <div class="col-lg-2">
+      <h2><strong>FREEBIES</strong></h2>
+        <p>Design E-books</p>
+    </div>
+    <!-- STAY IN TOUCH -->
+    <div class="col-lg-2">
+      <h2><strong>STAY IN TOUCH</strong></h2>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Dribble</p>
+    </div>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <div class="col-lg-12">
+      <img src="https://cdn-images-1.medium.com/max/1200/1*yhbOPmmTsybK0kYT4ClYXw.png">
+    </div>
+
+    <hr>
+
+    <div class="credits">
+    <p>Privacy * ToS * @ 2010-2017 UXPin Sp. z.o.o.</p>
+    </div>
+
+  </div> <!-- /.row -->
+</div><!-- /.container -->
+
+<p></p>
+<p></p>
+<p class="final-words">(Note: This is an attempted replication of the UXPin Website, using only HTML, CSS and Bootstrap. The actual site is on the following link: <span><a href="https://www.uxpin.com/">https://www.uxpin.com/</a></spam>)</p>
+<p></p>
+<p></p>
+
+  <!-- Script tags -->
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
