@@ -84,7 +84,7 @@ hr {
 	padding: 0 20px;
 }
 
-input {
+input[class="email"] {
 	color: black;
 }
 
