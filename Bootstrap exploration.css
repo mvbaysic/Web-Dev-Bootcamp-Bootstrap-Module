@@ -1,0 +1,236 @@
+.uxpinlogo {
+	height: 70px;
+}
+
+.nav {
+	padding-top: 20px;
+}
+
+.right-side {
+	width: 85%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #888888;
+}
+
+.dropdown-menu {
+	background-color: black;
+	opacity: 0.5;
+}
+
+.dropdown-menu>li>a {
+	color: white;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #337ab7;
+	color: white;
+	opacity: 1;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+    color: #888888;
+}
+
+div[class~="intro"] {
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://i.ytimg.com/vi/MZJEHH-N0Qg/maxresdefault.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	padding: 15px 40px;
+}
+
+.bannercontent {
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+}
+
+.head h1 {
+	font-weight: bold;
+	font-size: 63px;
+}
+
+.head p {
+	font-size: 27px;
+	letter-spacing: 1px;
+}
+
+hr {
+  width: 120px;
+  height: 20px; 
+  opacity: 0;
+}
+
+.register p {
+	font-size: 20px	
+}
+
+.email {
+	width: 297px;
+	height: 50px;
+	margin: 0 7px;
+	padding: 0 20px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	font-size: 12px;
+	font-weight: bold;
+	width: 136px;
+	height: 50px;
+	padding: 1.25em 25px;
+}
+
+.clients {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 8px;
+	letter-spacing: 2px;
+	opacity: 0.6;
+}
+
+.clients img {
+	height: 25px;
+	margin: 30px 0;
+	padding: 0 20px 0 10px;
+}
+
+.client-logo {
+	padding: 0 6%;
+}
+
+.adidas {
+	padding-left: 150px;
+}
+
+.h2, h2 {
+    font-size: 11px;
+    padding-top: 25px;
+ }
+
+ .glyphicon-edit {
+ 	height: 50px;
+ }
+
+ .page-header hr {
+  width: 20px;
+  height: 2px; 
+  opacity: 0;
+}
+
+.products {
+	margin: 0 -50px 0 50px;
+}
+
+.products img {
+ 	height: 100px;
+ }
+
+.products h1 {
+	font-size: 3.5em;
+	margin-bottom: 30px;
+}
+
+.products h4 {
+	margin-bottom: 40px;
+	font-size: 1.5em;
+	opacity: .9;
+}
+
+.products span {
+	font-size: 20px;
+	font-weight: normal;
+	color: orange;
+}
+
+.products ul {
+	padding-left: 15px;
+	padding-bottom: 25px;
+}
+
+.products li {
+	padding: 7px 0;
+	font-size: 1.25em;
+	opacity: .8;
+}
+
+.thumbnail {
+	margin: 0 20px 0 0;
+}
+
+.client-feedback .quote {
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+.client-feedback .client-name {
+	font-size: 15px;
+}
+
+div[class~="ending"] {
+	margin-top: 100px;
+	background-color: #006cff;
+	height: 63%;
+	padding-top: 0;
+}
+
+div[class="page-header"] {
+	border-color: transparent;
+	margin: 5px 0;
+}
+
+div[class~="ending"] h1 {
+	font-size: 3em;
+}
+
+div[class~="ending"] p {
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.btn-default {
+	color: #006cff;
+}
+
+.footer {
+	margin-top: -30px;
+	padding-left: 50px;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: #373737;
+}
+
+.footer h2 {
+	color: #777;
+	margin-bottom: 30px;
+}
+
+.footer p {
+	color: #DDD;
+
+}
+.credits p {
+	text-align: center;
+	font-weight: bold;
+	color: #777;
+}
+
+.footer img {
+	height: 70px;
+	padding: 0 45%;
+}
+
+.final-words {
+	text-align: center;
+}
