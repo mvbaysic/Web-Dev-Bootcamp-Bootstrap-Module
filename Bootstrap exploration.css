@@ -84,6 +84,10 @@ hr {
 	padding: 0 20px;
 }
 
+input {
+	color: black;
+}
+
 .btn-group-lg>.btn, .btn-lg {
 	font-size: 12px;
 	font-weight: bold;
