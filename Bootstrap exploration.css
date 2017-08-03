@@ -10,6 +10,14 @@
 	width: 85%;
 }
 
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 50px;
+}
+
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
@@ -121,11 +129,11 @@ input[class="email"] {
 .h2, h2 {
     font-size: 11px;
     padding-top: 25px;
- }
+}
 
  .glyphicon-edit {
  	height: 50px;
- }
+}
 
  .page-header hr {
   width: 20px;
@@ -134,7 +142,7 @@ input[class="email"] {
 }
 
 .products {
-	margin: 0 -50px 0 50px;
+	margin: 25px -50px 25px 50px;
 }
 
 .products img {
@@ -173,6 +181,10 @@ input[class="email"] {
 	margin: 0 20px 0 0;
 }
 
+.thumbnail img {
+	height: 140px;
+}
+
 .client-feedback .quote {
 	font-size: 28px;
 	letter-spacing: 2px;
@@ -185,7 +197,7 @@ input[class="email"] {
 div[class~="ending"] {
 	margin-top: 100px;
 	background-color: #006cff;
-	height: 63%;
+	height: 350px;
 	padding-top: 0;
 }
 
@@ -222,8 +234,8 @@ div[class~="ending"] p {
 
 .footer p {
 	color: #DDD;
-
 }
+
 .credits p {
 	text-align: center;
 	font-weight: bold;
