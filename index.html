@@ -12,6 +12,23 @@
  <!-- Link to CSS Styles -->
  <link rel="stylesheet" type="text/css" href="Bootstrap exploration.css">
 
+ <!-- Script for AMP -->
+ <script async custom-element="amp-experiment" src="https://cdn.ampproject.org/v0/amp-experiment-0.1.js"></script>
+ 
+  <!-- Style for AMP experiment -->
+  <style amp-custom>
+    body[amp-x-Experiment-Trial="0"] .button-color-experiment {
+      background-color: yellow;
+      color: black;
+    }
+    body[amp-x-Experiment-Trial="1"] .button-color-experiment {
+      background-color: red;
+    }
+    body[amp-x-Experiment-Trial="2"] .button-color-experiment {
+      background-color: blue;
+    }
+  </style>
+ 
 </head>
 <body>
 
@@ -87,7 +104,7 @@
         <p>Start a free trial. No credit card required.</p>
         <form>
           <input class="email" type="email" placeholder="Your company email">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Start free trial</a>
+          <a class="btn btn-primary btn-lg button-color-experiment" href="#" role="button">Start free trial</a>
         </form>
       </div><!-- /.register -->
     </div><!-- /#bannercontent -->
@@ -273,6 +290,21 @@
 <p></p>
 <p></p>
 
+ <!-- Experiment Trial: Treatment assignment -->
+ <amp-experiment>
+  <script type="application/json">
+    {
+      "Experiment-Trial": {
+          "variants": {
+          "0": 30,
+          "1": 30,
+          "2": 30
+        }
+      }
+    }
+  </script>
+</amp-experiment>
+ 
   <!-- Script tags -->
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
