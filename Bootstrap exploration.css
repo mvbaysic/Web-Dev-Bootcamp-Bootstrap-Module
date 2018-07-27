@@ -250,3 +250,16 @@ div[class~="ending"] p {
 .final-words {
 	text-align: center;
 }
+
+body[amp-x-Experiment-Trial="0"] .button-color-experiment {
+      background-color: yellow;
+      color: black;
+}
+
+body[amp-x-Experiment-Trial="1"] .button-color-experiment {
+      background-color: purple;
+}
+
+body[amp-x-Experiment-Trial="2"] .button-color-experiment {
+      background-color: pink;
+}
